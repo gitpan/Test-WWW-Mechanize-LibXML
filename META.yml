@@ -16,7 +16,7 @@ name: Test-WWW-Mechanize-LibXML
 provides:
   Test::WWW::Mechanize::LibXML:
     file: lib/Test/WWW/Mechanize/LibXML.pm
-    version: v0.0.3
+    version: v0.0.4
 requires:
   HTML::TreeBuilder::LibXML: 0
   MRO::Compat: 0
@@ -27,4 +27,5 @@ requires:
   warnings: 0
 resources:
   license: http://www.opensource.org/licenses/mit-license.php
-version: v0.0.3
+  repository: https://github.com/shlomif/perl-Test-WWW-Mechanize-LibXML
+version: v0.0.4
