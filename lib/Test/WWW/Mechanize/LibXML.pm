@@ -3,6 +3,8 @@ package Test::WWW::Mechanize::LibXML;
 use warnings;
 use strict;
 
+use 5.008;
+
 =head1 NAME
 
 Test::WWW::Mechanize::LibXML - use HTML::TreeBuilder::LibXML for testing
@@ -10,7 +12,7 @@ web-sites.
 
 =head1 VERSION
 
-Version 0.0.2
+Version 0.0.3
 
 =head1 SYNOPSIS
 
@@ -32,7 +34,7 @@ queries on the tree.
 
 =cut
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 
 use base 'Test::WWW::Mechanize';
 
@@ -79,7 +81,7 @@ sub _update_page
 
 =head2 my $tag = $mech->contains_tag($tag_spec, $blurb)
 
-See if the tree contains a tag using C< look_down(@$tag_spec) > and 
+See if the tree contains a tag using C< look_down(@$tag_spec) > and
 returns it.
 
 =cut
@@ -168,7 +170,7 @@ be added as needed.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2010 Shlomi Fish. (C<shlomif@insurgentsoftware.com>, 
+Copyright 2010 Shlomi Fish. (C<shlomif@insurgentsoftware.com>,
 L<http://www.shlomifish.org/> )
 
 This program is distributed under the MIT (X11) License:
